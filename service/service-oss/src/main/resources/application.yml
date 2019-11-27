@@ -1,0 +1,15 @@
+server:
+  port: 8120
+spring:
+  profiles:
+    active: dev
+  application:
+    name: guli-oss
+
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-shanghai.aliyuncs.com
+      keyId: LTAI4Fonr6VVK65i75gvGhAc
+      keySecret: 58QmmlXQCrlV6zDflwO7DfukZzz6df
+      bucketname: san3
